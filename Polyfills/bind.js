@@ -13,5 +13,15 @@ Function.prototype.myBind = function (obj, ...args) {
     delete obj[fncSymbol];
   };
 };
+
+Function.prototype.newBind = function (...args) {
+  const obj = this;
+  const rest = args.slice(1);
+  return function (...args1) {
+    obj.apply(args[0], rest.concat(args1));
+  };
+};
 const printData = print.myBind(data, "Hi", "is a great language");
-printData(); // Hi! Javascript is a great language
+const printData1 = print.newBind(data, "Hello", "is the best language");
+printData1(); // Hi! Javascript is a great language
+printData1(); // Hello!! Javascript is the best language
