@@ -35,3 +35,7 @@
 - higher order functions
 - call by value / call by reference
 - local storage/ session storage
+- strict mode
+- Functions, function expressions
+- shallow copy/ deep copy
+- DOM related(event delegation, event bubbling etc)
