@@ -25,7 +25,7 @@
 - asyncronous codes
 - network calls
 - setTimeout/ setInterval
-- nullace coaelscing
+- nullish coalescing.
 - Exception handling
 - Iterations on object, arrays, string
 - polyfills
