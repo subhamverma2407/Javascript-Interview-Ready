@@ -1,9 +1,22 @@
 function fetchData(url, callback) {
   // Simulating an asynchronous operation
+  // setTimeout(() => {
+  //   const data = { result: "Some data from " + url };
+  //   callback(null, data);
+  // }, 1000);
+
   setTimeout(() => {
-    const data = { result: "Some data from " + url };
-    callback(null, data);
-  }, 1000);
+    // Simulating an asynchronous operation
+    const errorChance = Math.random(); // Simulating random errors
+    if (errorChance < 0.3) {
+      // 30% chance of error
+      const error = new Error("Failed to fetch data");
+      callback(error); // Pass error to the callback
+    } else {
+      const data = { result: "Some data from " + url };
+      callback(null, data); // Pass data to the callback
+    }
+  }, 1000); // Simulate delay of 1 second
 }
 
 // Promisification

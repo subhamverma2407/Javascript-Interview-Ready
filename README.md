@@ -3,39 +3,38 @@
 - Data types
 - Objects
 - Arrays
+- Functions, function expressions
 - Execution Context
+- hoisting
+- closures
 - Message queue
-- Class(object oriented)
+- Class (object-oriented)
 - constructor
 - new keyword
 - this keyword
-- prototypical inheritence
-- hoisting
-- closures
-- currying
-- TDZ
-- IIFE
+- prototypical inheritance
+- Functions, function expressions
 - call bind apply
-- immutability
+- call by value / call by reference
+- strict mode
+- shallow copy/ deep copy
+- nullish coalescing
 - type coercion
 - truthy falsy values
-- promises
+- immutability
+- Iterations on objects, arrays, strings
+- Debounce and throttle
+- Arrow functions
+- Higher-order functions
+- TDZ (Temporal Dead Zone)
+- IIFE (Immediately Invoked Function Expression)
 - async await
-- fetch/axios
-- asyncronous codes
-- network calls
+- Promises
+- asynchronous codes
+- network calls (fetch/axios)
 - setTimeout/ setInterval
-- nullish coalescing.
 - Exception handling
-- Iterations on object, arrays, string
-- polyfills
-- ES6 features, rest , spread
-- debounce and throttle
-- arrow functions
-- higher order functions
-- call by value / call by reference
-- local storage/ session storage
-- strict mode
-- Functions, function expressions
-- shallow copy/ deep copy
-- DOM related(event delegation, event bubbling etc)
+- DOM related (event delegation, event bubbling, etc.)
+- Polyfills
+- ES6 features, rest, spread
+- local storage/session storage
