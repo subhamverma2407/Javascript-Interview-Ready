@@ -38,3 +38,4 @@
 - Polyfills
 - ES6 features, rest, spread
 - local storage/session storage
+- microtask / macro task
