@@ -13,7 +13,7 @@
 
 - Object methods: `keys`, `values`, `entries`, `assign`, etc.
 
-## Variable Declarations
+## Variable Declarations [var-let-const](https://www.freecodecamp.org/news/differences-between-var-let-const-javascript/)
 
 - `var`
 - `let`
