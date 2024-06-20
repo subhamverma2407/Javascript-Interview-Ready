@@ -1,41 +1,156 @@
-# Javascript topics:
+# JavaScript Topic Indexing
 
-- Data types
-- Objects
-- Arrays
-- Functions, function expressions
-- Execution Context
-- hoisting
-- closures
-- Message queue
-- Class (object-oriented)
-- constructor
-- new keyword
-- this keyword
-- prototypical inheritance
-- Functions, function expressions
-- call bind apply
-- call by value / call by reference
-- strict mode
-- shallow copy/ deep copy
-- nullish coalescing
-- type coercion
-- truthy falsy values
-- immutability
-- Iterations on objects, arrays, strings
-- Debounce and throttle
+## Data Types
+
+- **Primitive Types**: string, number, boolean, null, undefined, symbol, bigint
+- **Reference Types**: objects, arrays, functions
+
+## Arrays
+
+- Array methods: `push`, `pop`, `shift`, `unshift`, `slice`, `splice`, etc.
+
+## Objects
+
+- Object methods: `keys`, `values`, `entries`, `assign`, etc.
+
+## Variable Declarations
+
+- `var`
+- `let`
+- `const`
+
+## Functions
+
+- Function declarations
+- Function expressions
 - Arrow functions
-- Higher-order functions
-- TDZ (Temporal Dead Zone)
-- IIFE (Immediately Invoked Function Expression)
-- async await
-- Promises
-- asynchronous codes
-- network calls (fetch/axios)
-- setTimeout/ setInterval
-- Exception handling
-- DOM related (event delegation, event bubbling, etc.)
-- Polyfills
-- ES6 features, rest, spread
-- local storage/session storage
-- microtask / macro task
+
+## Function Expressions
+
+## Scope Chain
+
+## Hoisting
+
+## Closures
+
+## Currying
+
+## IIFE (Immediately Invoked Function Expression)
+
+## TDZ (Temporal Dead Zone)
+
+## Code Execution
+
+- Call stack
+- Execution context
+
+## Event Loop / Message Queue
+
+## Object-Oriented Programming (OOP)
+
+- Objects
+- `this` keyword
+- Prototypal inheritance
+- Prototype chain
+- `new` keyword
+- Constructors
+
+## Arrow Functions
+
+## Call / Bind / Apply
+
+## ES6 Features
+
+- Rest operator
+- Spread operator
+- Template literals
+- Enhanced object literals
+- Default parameters
+- Object/array destructuring
+- Classes
+- Symbols
+- Iterators and generators
+- Modules (`import`/`export`)
+
+## Callbacks
+
+## Promises
+
+## Async/Await
+
+## Exception Handling
+
+- `try`, `catch`, `finally`
+- Error objects
+
+## Higher-Order Functions
+
+## Pure Functions
+
+## Iteration
+
+- **Array**: `forEach`, `map`, `filter`, `reduce`, etc.
+- **String**: String methods
+- **Objects**: `for...in`, `Object.keys`, etc.
+
+## Loops
+
+- `for`, `forEach`, `for...of`, `for...in`, `while`, `do...while`
+
+## Array Methods
+
+- `map`, `filter`, `reduce`
+
+## Immutability
+
+- Concept and practices
+- Immutable.js (optional library)
+
+## Coercion
+
+- Type conversion
+- Implicit and explicit coercion
+
+## Truthy and Falsy Values
+
+## Collections
+
+- Set, WeakSet, Map, WeakMap
+
+## Debounce / Throttle
+
+## Polyfills
+
+## Strict Mode
+
+## Proxy/Reflect
+
+## Modules
+
+- ES6 modules (`import`/`export`)
+- CommonJS (`require`/`module.exports`)
+
+## JavaScript Niche Output Related Questions
+
+- Common tricky questions
+- Quirks of JavaScript behavior
+
+## Event Handling
+
+- Event listeners
+- Event propagation (bubbling and capturing)
+
+## Timers
+
+- `setTimeout`, `setInterval`, `clearTimeout`, `clearInterval`
+
+## DOM Manipulation
+
+- Selecting elements
+- Modifying elements
+- Event handling in the DOM
+
+## AJAX and Fetch API
+
+- Making HTTP requests
+- Handling responses
