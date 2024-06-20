@@ -39,7 +39,7 @@
 
 ## TDZ (Temporal Dead Zone)
 
-## Code Execution
+## Code Execution [Execution-Context](https://www.freecodecamp.org/news/execution-context-how-javascript-works-behind-the-scenes/)
 
 - Call stack
 - Execution context
