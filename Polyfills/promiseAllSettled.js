@@ -15,9 +15,10 @@ const promises = [
 ];
 
 Promise.myAllSettled = function (promises) {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     const output = [];
     let settledCount = 0;
+    if (promises.length === 0) resolve(output);
     promises.forEach((promise, index) => {
       Promise.resolve(promise)
         .then((result) => {
@@ -41,3 +42,7 @@ Promise.myAllSettled = function (promises) {
 };
 
 Promise.myAllSettled(promises).then((res) => console.log(res));
+
+Promise.allSettled([]).then((res) => console.log(res));
+
+Promise.myAllSettled([]).then((res) => console.log(res));

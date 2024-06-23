@@ -16,6 +16,7 @@ Promise.myAll = function (promises) {
   return new Promise(function (resolve, reject) {
     const output = [];
     let settledCount = 0; // flag to keep track of settled Count.
+    if (promises.length === 0) resolve(output);
     promises.forEach((promise, index) => {
       Promise.resolve(promise) // The reason to do this is if in the [] we have a primitive or non promise value, then it is not thenable.
         //So Promise.resolve() converts a non-promise into a promise and if we pass a promise then it remain unchanged.
@@ -34,3 +35,7 @@ Promise.myAll = function (promises) {
 Promise.myAll(promises)
   .then((res) => console.log(res))
   .catch((error) => console.log(error));
+
+Promise.myAll([])
+  .then((res) => console.log(res))
+  .catch((err) => console.log(err));
