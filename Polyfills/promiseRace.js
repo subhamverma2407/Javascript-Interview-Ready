@@ -15,6 +15,7 @@ const promises = [
 
 Promise.myRace = function (promises) {
   return new Promise((resolve, reject) => {
+    if (promises.length === 0) return;
     promises.forEach((promise) => {
       Promise.resolve(promise).then(resolve, reject); // since then can take two argument.
       // .catch(reject) -> Alternative
