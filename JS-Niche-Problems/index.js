@@ -55,3 +55,19 @@
 // Object. create allows you to manually set the prototype while creating the object
 
 //====================================================
+
+// Ques 5
+
+// const arr = [2, 4, 6, 8, undefined, 10];
+// let doubleCount = 0;
+// arr.map((v) => {
+//   doubleCount++;
+//   return v * 2;
+// });
+
+// console.log(doubleCount); // 5
+
+// Concept: map method doesn't run the callback for array elements without value.
+// null and undefined will run, empty element will not.
+
+//====================================================
