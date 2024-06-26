@@ -5,3 +5,8 @@
 const arr = [1, 2, , 4, 5, 6];
 const res = arr.toString();
 console.log(res); // "1,2,,4,5,6"
+
+const obj = {};
+obj.a = 1;
+obj[arr] = 2;
+console.log(obj); // { a: 1, '1,2,,4,5,6': 2 }
