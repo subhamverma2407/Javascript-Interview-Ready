@@ -22,4 +22,21 @@ function myDebounce(func, delay) {
       func.apply(context, args);
     }, delay);
   };
+
+  // Solution 2:
+
+  function debounce_2(func, delay) {
+    let timerId;
+    return function () {
+      let context = this;
+      let args = arguments;
+      if (!timerId) {
+        func.call(context, args);
+      }
+      clearTimeout(timerId);
+      timer = setTimeout(() => {
+        timer = undefined;
+      }, delay);
+    };
+  }
 }
