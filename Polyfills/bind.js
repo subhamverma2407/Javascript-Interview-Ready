@@ -8,8 +8,9 @@ const print = function (greetings, message) {
 
 Function.prototype.myBind = function (context = {}, ...args) {
   context.fn = this;
-  return function () {
-    context.fn(...args);
+  return function (...args1) {
+    const arg = [...args, ...args1];
+    context.fn(...arg);
   };
 };
 
@@ -34,5 +35,5 @@ Function.prototype.myBind = function (context = {}, ...args) {
 // printData1(); // Hi! Javascript is a great language
 // printData1(); // Hello!! Javascript is the best language
 
-const printData2 = print.myBind(data, "Hi", "is a great language");
-printData2(); // Hi! Javascript is a great language
+const printData2 = print.myBind(data, "Hi");
+printData2("is a great language"); // Hi! Javascript is a great language
