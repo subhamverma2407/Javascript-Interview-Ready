@@ -6,12 +6,14 @@
 4. `call`
 5. `apply`
 6. `bind`
-7. `promise.all`
-8. `promise.allSettled`
-9. `promise.any`
-10. `promise.race`
-11. `promise.resolve`
-12. `promise.reject`
-13. `debounce`
-14. `throttle`
-15. `flat`
+7. `promisify`
+8. `promise.all`
+9. `promise.allSettled`
+10. `promise.any`
+11. `promise.race`
+12. `promise.resolve`
+13. `promise.reject`
+14. `debounce`
+15. `throttle`
+16. `flat`
+
