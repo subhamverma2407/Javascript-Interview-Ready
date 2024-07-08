@@ -13,7 +13,8 @@ person.displayName.call(student, "hello");
 
 Function.prototype.myCall = function (context = {}, ...args) {
   context.fn = this;
-  context.fn(...args);
+  const result = context.fn(...args);
+  return result;
 };
 
 person.displayName.myCall(student, "hello");
