@@ -1,5 +1,6 @@
 // Promise.race also takes an iterable and what it does is it returns the first settled promise.
 // Be it resolved or rejected. whichever gets settled first is returned.
+// Produce no result if an empty array is passed.
 
 const promises = [
   new Promise((resolve, reject) =>
