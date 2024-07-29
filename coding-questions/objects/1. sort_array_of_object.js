@@ -40,3 +40,13 @@ console.log(res);
 
 const res1 = employees.slice().sort((a, b) => a.name.localeCompare(b.name)); // more elegant way
 console.log(res1);
+
+const res2 = employees.slice().sort((a, b) => {
+  if (a.name < b.name) {
+    return 1;
+  } else if (a.name > b.name) {
+    return -1;
+  } else return 0;
+});
+
+console.log(res2);
