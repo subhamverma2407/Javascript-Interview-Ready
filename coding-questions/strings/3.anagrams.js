@@ -7,15 +7,15 @@ const isAnagram = (str1, str2) => {
     charHash[val] ? (charHash[val] += 1) : (charHash[val] = 1);
 
   for (let val of str2) {
-    if (!charHash[val] || charHash[val] <= 0) {
+    if (!charHash[val]) {
       return false;
-    } else {
-      charHash[val] = charHash[val] - 1;
     }
+    charHash[val] -= 1;
   }
   return true;
 };
 
 console.log(isAnagram("listen", "silent"));
-console.log(isAnagram("hello", "ollme"));
+console.log(isAnagram("hello", "olleh"));
 console.log(isAnagram("listen", "abc"));
+console.log(isAnagram("apple", "ppple"));
